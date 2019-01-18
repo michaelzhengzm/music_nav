@@ -1,0 +1,120 @@
+/*公用*/
+.common_width{width:1140px;}
+.floatL{float:left;}
+.floatR{float:right;}
+.normal_height{height:20px;}
+.bg{background: url("../images/love.jpg");background-size:cover;background-attachment: fixed;}
+
+/*顶部*/
+.header{height:80px;}
+.header>div{margin:0 auto;}
+.header a:hover{text-decoration:none;}
+/*顶部左侧*/
+.left_header{height:80px;width:302px;}
+.main_logo{height:50px;width:170px;margin-top:15px;border-right:1px #ccc solid;}
+.main_logo div:first-of-type img{width:45px;height:45px;margin-top:3px;}
+.main_logo div:nth-of-type(2) {width:110px;margin-left:5px;margin-top:2.5px;}
+.main_logo div .net_name{font:25px/1 "宋体";color:#ff0000;text-align:center;font-weight: bold;}
+.main_logo div .net_add{font:15px/1 "黑体";margin-top: 5px;text-align:center;font-weight: bold;color:#0099ff}
+.logo_text{height:20px;width:130px;text-align:center;margin-top:25px;}
+.logo_text a{font:30px/1 "宋体";color:#cc00ff;font-weight: bold;}
+/*顶部右侧*/
+.right_header{height:80px;width:615px;}
+.search_text{width:510px;height:40px;margin:20px 0;border:1px solid #6383ac;border-right:none;}
+.search_icon{width:103px;height:42px;margin:20px 0;background-color:#3989fc;color:#fff;border-radius:0 20px 20px 0;border:1px solid #6383ac;}
+
+
+/*主网址栏*/
+.main_nets{height:200px;margin:0 auto;border-bottom:1px solid #0000ff}
+.main_nets_list{width:190px;height:100px;float:left;}
+.main_nets_list a{display:inline-block;}
+.main_nets_list img{width:55px;height:55px;margin:20px 15px;float:left;}
+.main_nets_list:nth-last-of-type(2) img{width:55px;height:45px;margin:25px 15px;}
+.main_nets .main_nets_list span{font:25px/1.2 "宋体";float:left;margin-top:35px;color:#cc6600;}
+
+/*主内容*/
+.content{width:1140px;margin:0 auto;}
+/*其他音乐网址*/
+.other_nets{height:auto;width:800px;}
+.other_nets .other_nets_content{width:auto;height:auto;margin:10px 20px;border-bottom:1px solid #0000ff;}
+.other_nets .other_nets_content ul{display:inline-block;width:auto;border-bottom:2px solid;font:20px/1.5 "宋体";font-weight: bold;}
+.other_nets .other_nets_content ol{margin-left:15px;width:760px;margin-bottom:15px;}
+.other_nets .other_nets_content ol a{width:auto;font:16px/1.5 "宋体";display:inline-block;margin-top:0.5em;color:#000;}
+.other_nets .other_nets_content ol a:hover{color:#fff;text-decoration:none;}
+/*设置颜色*/
+/*音乐综合*/
+.other_nets .other_nets_content:first-of-type ul{color:#ff00ff;}
+.other_nets .other_nets_content:first-of-type ol a:hover{background-color:#ff00ff;}
+/*DJ音乐*/
+.other_nets .other_nets_content:nth-of-type(2) ul{color:#00ffff;}
+.other_nets .other_nets_content:nth-of-type(2) ol a:hover{background-color:#00ffff;}
+/*音乐APP*/
+.other_nets .other_nets_content:nth-of-type(3) ul{color:#0099ff;}
+.other_nets .other_nets_content:nth-of-type(3) ol a:hover{background-color:#0099ff;}
+/*电视节目*/
+.other_nets .other_nets_content:nth-last-of-type(2) ul{color:#66ff33;}
+.other_nets .other_nets_content:nth-last-of-type(2) ol a:hover{background-color:#66ff33;}
+/*音乐社区*/
+.other_nets .other_nets_content:last-of-type ul{color:#0000ff;}
+.other_nets .other_nets_content:last-of-type ol a:hover{background-color:#0000ff;}
+
+
+/*本站背景音乐*/
+.music_list{height:auto;width:320px;margin-left:20px;}
+/*随机播放暂停栏*/
+.background_music{width:320px;height:auto;text-align:center;margin:0;border:1px solid #66ffff;}
+.background_music .pause{width:35px;background:url("../images/icons/pause.png") center center no-repeat;background-size:20px;line-height: 30px;}
+.background_music .pause:hover{cursor:pointer;}
+.background_music .play{width:35px;background:url("../images/icons/play.png") center center no-repeat;background-size:27px;line-height: 30px;margin-left:0;margin-top:-1px;}
+.background_music .play:hover{cursor:pointer;}
+.background_music p{width:195px;font:16px/1.5 "宋体";color:#d11313;margin-bottom:8px;}
+.background_music .next{width:35px;background:url("../images/icons/next.png") center center no-repeat;background-size:25px;line-height: 30px;margin:0 10px 0 0;margin-top:-1px;}
+.background_music .next:hover{cursor:pointer;}
+/*说明栏*/
+.explanation {width:320px;height:auto;text-align:center;margin:0;border-left:1px solid #66ffff;border-right:1px solid #66ffff;color:#6600ff;}
+.explanation div:first-of-type{width:35px;line-height: 30px;}
+.explanation div:nth-of-type(2){width:35px;line-height: 30px;}
+.explanation p{width:150px;line-height: 30px;font:12px/1.5 "宋体";margin:5px 15px 0 20px;}
+.explanation div:last-of-type{width:50px;line-height: 30px;}
+/*类目栏*/
+.background_music_type{width:320px;background:#000;border:1px solid #000;margin:0 auto;overflow:hidden;}
+.background_music_type li{float:left;font:14px/1.5 "宋体";color:#fff;padding:0 5px;}
+.background_music_type li:first-of-type{background-color:#cc6600;}
+.background_music_type li:nth-of-type(2){background-color:#6600ff;}
+.background_music_type li:last-of-type{background-color:#0099ff;}
+.background_music_type li:hover{color:#000;background:#ccc;}
+/*曲目栏*/
+.background_music_list{width:320px;height:auto;border:1px solid #66ffff;border-top:none;}
+.background_music_list ul{width:300px;height:auto;margin:0 10px;display:none;}
+.background_music_list .active{display:block;}
+.background_music_list ul li{font:12px/1.5 "宋体";color:#fff;float:left;width:144px;margin-bottom:10px;}
+.background_music_list ul li:first-of-type{border-right: 2px solid #ccc;}
+.background_music_list ul li:last-of-type{margin-left:10px;}
+.background_music_list a{display:block;margin-top:10px;}
+.background_music_list a:hover{text-decoration:none;background-color:#ccc;}
+.background_music_list a:first-of-type{margin-top:10px;}
+
+
+/*联系栏*/
+.contact{width:320px;height:auto;margin-top:20px;margin-left:20px;}
+.contact li{font:12px/1.5 "宋体";color:#000;margin:10px 0 0 10px;display:inline-block;text-indent:20px;color:#d11313}
+.contact li:first-of-type{background:url("../images/icons/email.png") left center no-repeat;background-size:15px;}
+.contact li:nth-of-type(2){background:url("../images/icons/phone.png") left center no-repeat;background-size:15px;}
+.contact li:last-of-type{background:url("../images/icons/blog.png") left center no-repeat;background-size:15px;}
+.contact li:last-of-type{margin-bottom:10px;}
+.contact li:hover{background-color: #00ffff;}
+/*底部条*/
+.footer{height:auto;color:#000;}
+.other_navnets{width:500px;height:80px;border-right:1px solid #000;}
+.other_navnets ul{width:100px;height:20px;font:14px/1.5 "宋体";margin-top:0;margin-left: 50px;}
+.other_navnets li{width:450px;height:20px;font:12px/1.5 "宋体";margin-top:5px;margin-left:50px;float: left;}
+.other_navnets li a{display:inline-block;margin-right:15px; }
+.other_navnets li a:hover{background-color:#fff;}
+.footer .forthis{width:500px;height:80px;border-right:1px solid #000;}
+.forthis h3{width:100px;height:20px;font:14px/1.5 "宋体";margin-top:0;margin-left: 50px;}
+.forthis p{width:450px;height:20px;font:12px/1.5 "宋体";margin-top:5px;margin-left:50px;float: left;color:#555;}
+.footer .sign{width:auto;height:80px;}
+.footer .sign div:first-of-type{width:50px;height:50px;margin-left:10px;margin-top:15px;float:left;}
+.footer .sign div:first-of-type img{width:50px;height:50px;margin:0 auto;}
+.footer .sign div:last-of-type{width:auto;height:auto;float:left;margin-left:20px;margin-top:15px;}
+.footer .sign div:last-of-type p{width:auto;display: block;color:#555;}
